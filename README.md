@@ -18,5 +18,4 @@ Request object:
 	"limit": 5,
 	"sortName": "name",
 	"sortOrder": "desc"
-
 }
