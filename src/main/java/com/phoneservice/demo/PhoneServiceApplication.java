@@ -10,7 +10,7 @@ import org.springframework.context.annotation.PropertySource;
 import com.phoneservice.demo.dao.PhoneDAO;
 import com.phoneservice.demo.model.Phone;
 
-@PropertySource("application.properties")
+@PropertySource("classpath:application.properties")
 @ComponentScan("com")
 @SpringBootApplication
 public class PhoneServiceApplication implements CommandLineRunner {
